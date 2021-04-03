@@ -6,12 +6,12 @@ module.export = {
 //entry point:webpackのmoduleのbundleを行うための起点になるファイルをまとめていく
   entry:{
 //entry pointにbundleという名前をつけて、そのファイル名を指定
-    bundle:'./src/index.ts'
+    main:'./src/index.ts'
   },
 //outputはbundleで一つにまとめたファイルをどこに出力するか設定値を書いたファイル
   output: {
 //上で設定したpathという設定値を使う。__dirname：これがある環境のpathを取得してくれる
-　　　path: path.join(__dirname, 'dist')
+　　　path: path.join(__dirname, 'dist'),
 //nameはbundleと紐づくので、bundle.jsとなる
      filename: "[name].js"
   },
