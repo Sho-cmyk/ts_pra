@@ -4,8 +4,14 @@
 // console.log(hoge)
 // console.log(num)
 
-import World from './world';
+// import World from './world';
 
-const root = document.getElementById("root")
-const world = new World("Hello World!");
-world.sayHello(root);
+// const root = document.getElementById("root")
+// const world = new World("Hello World!");
+// world.sayHello(root);
+
+//03.基本の定義
+import {notExistSample, primitiveSample} from './basic'
+
+notExistSample()
+primitiveSample()
