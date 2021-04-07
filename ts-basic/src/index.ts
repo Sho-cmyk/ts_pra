@@ -11,7 +11,12 @@
 // world.sayHello(root);
 
 //03.基本の定義
-import {notExistSample, primitiveSample} from './basic'
+// import {notExistSample, primitiveSample} from './basic'
 
-notExistSample()
-primitiveSample()
+// notExistSample()
+// primitiveSample()
+
+// 04.関数の型定義
+import {logMessage} from './function/basic'
+
+logMessage("Hello TypeScript")
